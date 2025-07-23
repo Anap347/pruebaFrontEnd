@@ -1,0 +1,84 @@
+.user_profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 160px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+
+.profile_picture {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #FFD61B;
+    border-radius: 100%;
+}
+
+.welcome_text {
+    font-size: 24px;
+}
+
+.form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 89px;
+    padding-bottom: 70px;
+}
+
+.form_header {
+    margin: 64px 0px 40px;
+    text-align: center;
+}
+
+.container_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+svg {
+    color: #FFD61B;
+    width: 15px;
+    height: 15px;
+}
+
+.form_label {
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    color: #868589;
+}
+
+.form_input {
+    font-size: 16px;
+    height: 20px;
+    margin-top: 2px;
+    border: none;
+    border-bottom: 1px solid #FFD61B;
+    color: #434142;
+}
+
+.button_yellow {
+    position: absolute;
+    bottom: 0px;
+}
+
+@media (max-width: 1024px) {
+    .button_yellow {
+        bottom: -110px;
+    }
+}
+
+@media (max-width: 425px) {
+    .form {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .button_yellow {
+        bottom: -300px;
+    }
+}

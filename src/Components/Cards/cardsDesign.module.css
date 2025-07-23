@@ -1,0 +1,28 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 173px;
+    height: 85px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.color {
+    color: #8E8D8D;
+}
+
+.selected {
+    background-color: #FFFCF0;
+    border: 1px solid #FFD61B;
+}
+
+.color_selected {
+    color: #434142;
+    font-weight: bold;
+}

@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 165px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 8px 8px;
+    padding-top: 32px;
+    gap: 16px;
+}
+
+.profile_picture {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #FFD61B;
+    border-radius: 100%;
+    margin-top: 32px;
+    align-self: flex-start;
+}
+
+.nutricion_container {
+    width: 35%;
+}
+
+.nutricion_info {
+    color: #8E8D8D;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.nutricion_icons {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.icon {
+    background: #D9D9D9 0% 0% no-repeat padding-box;
+    border-radius: 100%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    color: #8E8D8D;
+}
+
+.inter {
+    align-self: center;
+    color: #D9D9D9;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding-top: 0;
+    }
+
+    .profile_picture {
+        align-self: center;
+    }
+
+    .nutricion_container {
+        width: 80%;
+    }
+
+    .nutricion_icons {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .nutricion_icons {
+        width: 100%;
+    }
+}
